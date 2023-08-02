@@ -1,75 +1,57 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Login</title>
-    <style>
-      .form-wrap{
-        padding: 30px;
-        border-radius: 10px;
-        margin: 40px auto;
-        width: 400px;
-        background-color: #f5f5f5;
-        box-shadow: 10px 10px 5px #554;
-      }
-      label{
-        font-size: 20px;
-        font-weight: bold;
-      }
-      input[type="text"],input[type="password"]{
-        height: 30px;
-        background-color: #f5f5f5;
-        border: 2px solid #ddd;
-        margin-top: 10px;
-        width: 300px;
-        font-size: 14px;
-        color: #444;
-      }
-      .button{
-        display: block;
-        background-color: #4ba8ff;
-        color: #ffffff;
-        text-align: center;
-        border-radius: 10px;
-        font-weight: bold;
-        font-size: 16px;
-        padding: 10px;
-        margin: 20px auto;
-        width: 200px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="form-wrap">
-      <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
-        <label>Username:</label><br>
-        <input type="text" name="username"><br>
-        <label>Password:</label><br>
-        <input type="password" name="password"><br>
-        <input type="submit" class="button" value="Login">
-      </form>
-    </form>
-  </div>
-  
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $username = $_POST['username'];
-  $password = $_POST['password'];
- 
-  // username dan password sesuai
-  if ($username == "claretianovfx" && $password == "claretianovfx123") {
-    echo '<h2>Login Berhasil</h2>';
-
-    // kirim username dan password ke email
-    $to      = 'claretianovfx@gmail.com';
-    $subject = 'Login Berhasil!';
-    $message = 'Username: '.$username.' Password: '.$password;
-    $headers = 'From: claretianovfx@example.com';
-
-    mail($to, $subject, $message, $headers);
-  } else {
-    echo '<h2>Login Gagal</h2>';
-  }
+<head>
+<title>Hacked By ./ClaretianoVFX-</title>
+<meta charset="UTF-8">
+<meta name="author" content="./Alya402">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Alay Truss, Punya Temen Tapi otaknya masi ke anak anakan">
+<meta name="keywords" content="./Alya402">
+<link rel="shortcut icon" type="image/x-icon" href="https://i.ibb.co/vZWBpCq/1cf59fe2baa18476dff7b713f22ef9f0.jpg" />
+<meta property="og:image" content="https://i.ibb.co/2d623bY/20230219-193624.jpg">
+<style>
+body {
+  background: black;
 }
-?>
-
+h1 {
+  color: red;
+  font-family: Calibri;
+}
+h2 {
+  color: ;
+  font-family: Comic Sans MS;
+}
+.kata1 {
+  color: white;
+  font-family: Times;
+}
+.kata2 {
+  color: green;
+  font-family: Calibri;
+}
+.kata3 {
+  color: white;
+  font-family: Calibri;
+}
+</style>
+</head>
+<body>
+<center>
+<img src="https://i.ibb.co/2d623bY/20230219-193624.jpg" style="width: 20%">
+<br>
+<h1>Hacked By ClaretianoVFX</h1>
+<h2></h2>
+<p class="kata1">Alay Truss, Punya Temen Tapi otaknya masi ke anak anakan</p>
+<p class="kata2">Mereka menganggapku remeh dalam dunia nyata, tapi mereka tidak tahu aku di dalam 'Cyber World'.</p>
+<p class="kata3">Itu Temen Yang Sok Elit Itu Otaknya Dipake</p>
+<p class="kata3">Kalian Juga Orang Orang Yang sok Elit Lu pikir cuman lu doang orang?</p>
+<br><br><br><br>
+<img src="https://i.ibb.co/vZWBpCq/1cf59fe2baa18476dff7b713f22ef9f0.jpg" width="70px" height="90px">
+<marquee>
+  <b style="color: white;font-size: 18px">.:: </b>
+  <b style="color: red;font-size:20px">ScarletVFX Asley Lhysen </b>
+  <b style="color: white;font-size: 18px"> ::.</b>
+</marquee>
+</center>
 </body>
 </html>
